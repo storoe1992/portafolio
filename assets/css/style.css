@@ -1,0 +1,53 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+body *{
+    font-family: 'Oswald', sans-serif;
+}
+
+@font-face {
+    font-family: "Helvetica Neue";
+    src : url('../fonts/HelveticaNeue.ttf')  format('truetype');
+}
+
+.initial-letter {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.nav-link{
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+}
+
+.background-img{
+  background-image: url("/assets/img/20190817_161955.jpg");
+  height: 70rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.iam-container{
+   width: 30rem;
+   padding-top: 50em
+}
+
+.iam-container h2{
+    font-size: 4.5rem;
+    font-weight: 200;
+}
+
+.iam-container h1{
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+
+.card-image-body{
+    height: 15.625rem;
+}
