@@ -20,7 +20,7 @@ body *{
 
 .background-img{
   background-image: url("/assets/img/20190817_161955.jpg");
-  height: 70rem;
+  height: 80rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -28,7 +28,7 @@ body *{
 }
 
 .iam-container{
-   padding-top: 50rem
+   padding-top: 58rem
 }
 
 .iam-container h2{
@@ -56,7 +56,7 @@ body *{
 @media (max-width : 1024px){
 
     .iam-container{
-        padding-top: 12rem
+        padding-top: 17rem
     }
 
     .iam-container h2{
@@ -68,6 +68,6 @@ body *{
     }
 
     .background-img{
-        height: 20rem;
+        height: 25rem;
     }
 }
