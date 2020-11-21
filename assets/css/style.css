@@ -7,23 +7,15 @@ body{
 
 
 body *{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
-@font-face {
-    font-family: "Helvetica Neue";
-    src : url('../fonts/HelveticaNeue.ttf')  format('truetype');
-}
 
 .initial-letter {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 700;
-    font-size: 2.5rem;
-}
-
-.nav-link{
-    font-family: 'Helvetica Neue', sans-serif;
-    font-size: 1rem;
+    font-family: 'Castoro', sans-serif;
+    font-weight: 400;
+    font-size: 3.5rem;
 }
 
 .background-img{
@@ -41,7 +33,14 @@ body *{
 
 .iam-container h2{
     font-size: 4.5rem;
-    font-weight: 200;
+    font-family: 'Castoro', sans-serif;
+    font-weight: 300;
+}
+
+.iam-container h1{
+    font-size: 4.5rem;
+    font-family: 'Castoro', sans-serif;
+    font-weight: 700;
 }
 
 .card-image-body{
@@ -61,13 +60,11 @@ body *{
     }
 
     .iam-container h2{
-        font-size: 2rem !important;
-        font-weight: 200;
+        font-size: 2rem;
     }
     
     .iam-container h1{
-        font-size: 2rem !important;
-        font-weight: 700;
+        font-size: 2rem;
     }
 
     .background-img{
